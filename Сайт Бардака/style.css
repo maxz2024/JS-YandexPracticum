@@ -1,0 +1,100 @@
+.trash-images img {
+    position: absolute;
+    width:  500px;
+}
+
+body {
+    background-image: url('https://code.s3.yandex.net/kids-web/pomoyka-background.png');
+    background-size: cover;
+}
+
+.trash-images {
+    max-width: 1600px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.trash-images .imagination-text {
+    z-index: 13;
+    top: 0;
+    width: 810px;
+}
+
+.trash-images .mouse {
+    top: 621px;
+    left: 576px;
+    z-index: 15;
+    width: 240px;
+}
+
+.trash-images .trash {
+    width: 1043px;
+    top: 165px;
+    right: 0;
+}
+
+.trash-images .keyboard {
+    left: 359px;
+    top: 216px;
+    width: 678px;
+    z-index: 14;
+}
+
+.trash-images .old-mac {
+    top: 272px;
+    z-index: 14;
+    left: 149px;
+    width: 652px;
+}
+
+.trash-images .pc-for-dummies {
+    top: 127px;
+    left: 309px;
+    z-index: 14;
+    width: 311px;
+}
+
+.trash-images .trash-bag {
+    right: 0;
+    bottom: 2px;
+    top: 259px;
+    z-index: 15;
+    width: 600px;
+}
+
+.trash-images .very-old-comp {
+    right: 58px;
+    z-index: 14;
+    top: 127px;
+}
+
+.trash-images .computer-mag {
+    right: 133px;
+    top: 0;
+    z-index: 13;
+    width: 438px;
+}
+
+.trash-images .windows98 {
+    top: 666px;
+    z-index: 14;
+    left: 386px;
+    width: 311px;
+}
+
+.old-comp {
+    left: 5px;
+    top: 535px;
+    z-index: 14;
+}
+
+.old-comp-2 {
+    left: 4px;
+    top: 185px;
+    z-index: 14;
+}
+
+.trash-images .disks {
+    right: 268px;
+    top: 538px;
+}

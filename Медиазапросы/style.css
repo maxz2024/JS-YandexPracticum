@@ -1,0 +1,64 @@
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+}
+
+.main__title {
+    font-size: 72px;
+}
+
+.cards__nav {
+    width: 100%;
+    max-width: 240px;
+    background: cornflowerblue;
+    border-radius: 5px;
+    list-style: circle;
+    color: white;
+    font-size: 24px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 12px;
+}
+
+
+.cards__content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+    width: 100%;
+}
+
+.card {
+    max-width: 382px;
+    border-radius: 5px;
+    background: lavender;
+    width: 100%;
+}
+
+.card__text {
+    margin: 12px;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .main__title {
+        font-size: 36px;
+    }
+
+    .cards {
+        flex-direction: column-reverse;
+    }
+
+    .cards__nav {
+        max-width: unset;
+    }
+} 

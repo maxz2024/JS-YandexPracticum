@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  background: #F1F1F1;
+}
+
+header {
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 120px;
+  width: 100%;
+  border-bottom: 1px solid #A1A6B4;
+}
+
+.container-header {
+  margin: 0;
+  display: flex;
+  width: 1440px;
+  justify-content: space-between;
+}
+
+.img-logo {
+  width: 212.34px;
+  height: 63.24px;
+  margin-top: 30.18px;
+  margin-left: 142.52px;
+  margin-bottom: 15.58px;
+}
+
+.container-social {
+  display: inline-flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.main-title {
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.cards {
+  margin-left: 139.5px;
+    margin-right: 139.5px;
+    display: flex;
+    border-radius: 12px;
+}
+
+.card {
+  background: #FFFFFF;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 24px;
+  margin: 0;
+  display: inline-block;
+  margin: 15px;
+  background: #FFFFFF;
+  border-radius: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: auto;
+  width: auto;
+}
+
+.card img {
+  gap: 24px;
+  width: 370px;
+  border-radius: 12px;
+  height: 100%;
+  max-height: 254px;
+  object-fit: cover;
+  object-position: center;
+}
