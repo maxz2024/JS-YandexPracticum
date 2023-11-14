@@ -1,7 +1,7 @@
 /* подключение локальный шрифтов на страницу */
 @font-face {
     font-family: "Anonymous Pro";
-    src: url(fonts/AnonymousPro-Regular.ttf);
+    src: url(../fonts/AnonymousPro-Regular.ttf);
     font-weight: 400;
     font-style: normal;
     display: swap;
@@ -9,7 +9,7 @@
 
 @font-face {
     font-family: "Anonymous Pro";
-    src: url(fonts/AnonymousPro-Bold.ttf);
+    src: url(../fonts/AnonymousPro-Bold.ttf);
     font-weight: 700;
     font-style: normal;
     display: swap;
