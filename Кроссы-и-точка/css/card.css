@@ -1,8 +1,7 @@
 body {
     display: flex;
-    width: 1440px;
+    width: 100%;
     flex-direction: column;
-    align-items: flex-start;
     height: 1915px;
 }
 
@@ -16,9 +15,7 @@ main {
     align-self: stretch;
 }
 
-
-
-.main__container {
+.main__content {
     display: flex;
     padding: 32px 0px;
     flex-direction: column;
@@ -30,6 +27,7 @@ main {
 
 .sneaker-big {
     display: flex;
+    width: 1140px;
     padding: 48px;
     flex-direction: column;
     align-items: flex-start;
@@ -40,19 +38,22 @@ main {
 
 .sneaker-big__title {
     color: var(--black, #121723);
-font-family: Anonymous Pro;
-font-size: 48px;
-font-style: normal;
-font-weight: 400;
-line-height: 100%; /* 48px */
+    font-family: Anonymous Pro;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 48px */
 }
-.sneaker-big__subtitle{
+
+.sneaker-big__subtitle {
     color: var(--black, #121723);
-font-family: Anonymous Pro;
-font-size: 36px;
-font-style: normal;
-font-weight: 400;
-line-height: 100%; /* 36px */
+    font-family: Anonymous Pro;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 36px */
 }
 
 .sneaker-big__info {
@@ -96,7 +97,6 @@ line-height: 100%; /* 36px */
     gap: 20px;
     align-self: stretch;
     color: var(--black, #121723);
-    font-family: Anonymous Pro;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
@@ -115,6 +115,7 @@ line-height: 100%; /* 36px */
     font-weight: 400;
     line-height: normal;
 }
+
 .sneaker-big__parametr {
     display: flex;
     flex-direction: column;
@@ -122,6 +123,7 @@ line-height: 100%; /* 36px */
     gap: 24px;
     align-self: stretch;
 }
+
 .sneaker-big__line {
     width: 100%;
 }
@@ -130,4 +132,23 @@ line-height: 100%; /* 36px */
     height: 600px;
     align-self: stretch;
     border-radius: 50px 50px 0px 0px;
+}
+
+.next-page-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    background: #172a54
+}
+
+hr {
+    height: 1px;
+    background: var(--black, #121723);
+    border: none;
 }

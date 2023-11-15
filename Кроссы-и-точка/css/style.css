@@ -24,6 +24,7 @@ body,
 h1,
 h2,
 h3,
+hr,
 p,
 ul,
 li {
@@ -156,7 +157,7 @@ h3 {
     font-size: 26px;
 }
 
-p {
+.sneaker p {
     font-size: 20px;
 }
 
