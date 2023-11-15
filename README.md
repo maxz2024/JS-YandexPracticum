@@ -2,4 +2,4 @@
 
 Код сайта кроссовок. 
 
-Размещен на сайте https://kaleidoscopic-babka-16d751.netlify.app/
+Размещен на адресе https://kaleidoscopic-babka-16d751.netlify.app/
