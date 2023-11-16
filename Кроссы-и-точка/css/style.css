@@ -203,7 +203,7 @@ footer .nav-link {
     margin: 24px 0;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 375px) and  (max-width: 768px) {
     .header-container {
         flex-direction: column;
         align-items: center;
