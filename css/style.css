@@ -27,8 +27,11 @@ h3,
 hr,
 p,
 ul,
-li {
+li, 
+button{
     margin: 0;
+    border: none;
+    padding: 0;
 }
 
 ul {
@@ -128,14 +131,20 @@ h1 {
     height: 100%;
     border-radius: 12px;
     background: white;
-}
-
-.sneaker-link {
     transition: transform 200ms linear;
     color: #121723;
+    
 }
 
-.sneaker-link:hover {
+button {
+    text-align: left;
+    font-family: "Anonymous Pro", sans-serif;
+}
+/* .sneaker-link {
+    
+} */
+
+.sneaker:hover {
     transform: translateY(-10px);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
